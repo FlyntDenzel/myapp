@@ -26,6 +26,7 @@ function Heading() {
     return (
         <div className="heading">
             <h2 style={customColor}>Hello and {greeting}</h2>
+            <p>I hope we have food left inside</p>
         </div>
     );
 }
